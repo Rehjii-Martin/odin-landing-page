@@ -1,10 +1,8 @@
 body {
-    border: 2px solid blue;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
-    border: 2px solid red;
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
@@ -63,7 +61,16 @@ header {
     color: white;
 }
 
-.button {
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px 0px;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
 footer {
