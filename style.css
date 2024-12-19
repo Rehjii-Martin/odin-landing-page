@@ -75,10 +75,28 @@ header {
     color: white;
 }
 
+
+.button2 {
+    margin: auto;
+    border: 2px solid white;
+}
+
+
+.blue-message {
+    padding: 2px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.blue-message2 {
+    padding: 2px;
+}
+
 .quote-auth {
     margin-left: auto;
     margin-top: 10px;
-    font-weight: 900;
+    font-weight: 600;
+    font-size: 18px;
    }
 
 .text {
@@ -136,12 +154,35 @@ footer {
     align-items: center;
 }
 
-header, .faux-header, .four-images, .message, footer {
+header, .faux-header, .four-images, .message, footer, .call-to-action {
     flex-shrink: 0;       /* Prevent shrinking */
     max-width: 1200px;    /* Optional: Add a maximum width */
     margin: 0 auto;       /* Center-align the container */
     width: 100%;          /* Maintain responsiveness */
     box-sizing: border-box; /* Avoid overflow caused by padding */
+}
+
+.call-to-action {
+    height: 350px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.blue-block {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 40px 120px 40px 120px;
+    margin: auto;
+}
+
+.flex-boxes {
+    text-align: left;
 }
 
 .list-text {
